@@ -1,0 +1,10 @@
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds\bin\Debug\QuickOdds.dll
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds\bin\Debug\QuickOdds.pdb
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds\obj\Debug\QuickOdds.dll
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds\obj\Debug\QuickOdds.pdb
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds\bin\Release\QuickOdds.dll
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds\bin\Release\QuickOdds.pdb
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds\obj\Release\QuickOdds.dll
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds\obj\Release\QuickOdds.pdb

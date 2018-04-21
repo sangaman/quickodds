@@ -1,0 +1,20 @@
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds KeyGen\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds KeyGen\obj\Debug\QuickOdds_KeyGen.Form1.resources
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds KeyGen\obj\Debug\QuickOdds_KeyGen.Properties.Resources.resources
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds KeyGen\obj\Debug\QuickOdds KeyGen.csproj.GenerateResource.Cache
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds KeyGen\bin\Debug\QuickOdds KeyGen.exe
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds KeyGen\bin\Debug\QuickOdds KeyGen.pdb
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds KeyGen\obj\Debug\QuickOdds KeyGen.exe
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds KeyGen\obj\Debug\QuickOdds KeyGen.pdb
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds KeyGen\bin\Release\QuickOdds KeyGen.exe
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds KeyGen\bin\Release\QuickOdds KeyGen.pdb
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds KeyGen\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds KeyGen\obj\Release\QuickOdds_KeyGen.Form1.resources
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds KeyGen\obj\Release\QuickOdds_KeyGen.Properties.Resources.resources
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds KeyGen\obj\Release\QuickOdds KeyGen.csproj.GenerateResource.Cache
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds KeyGen\obj\Release\QuickOdds KeyGen.exe
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds KeyGen\obj\Release\QuickOdds KeyGen.pdb
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds KeyGen\bin\Debug\QuickOdds.dll
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds KeyGen\bin\Debug\QuickOdds.pdb
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds KeyGen\bin\Release\QuickOdds.dll
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds KeyGen\bin\Release\QuickOdds.pdb

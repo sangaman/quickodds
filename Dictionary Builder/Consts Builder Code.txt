@@ -1,0 +1,473 @@
+/*	Dictionary<int, int> flushDictionary = new Dictionary<int, int>();
+	for(int a=0; a< 13; a++)
+		for(int b=a; b<13; b++)
+			for(int c=b; c<13; c++)
+				for(int d=c+1; d<13; d++)
+					for(int e=d+1; e<13; e++)
+						for(int f=e+1; f<13; f++)
+							for (int g = f + 1; g < 13; g++)
+							{
+								int flushStrength = -47;
+								int flushRankBits = 0;
+								flushRankBits |= rankMasks[a];
+								flushRankBits |= rankMasks[b];
+								flushRankBits |= rankMasks[c];
+								flushRankBits |= rankMasks[d];
+								flushRankBits |= rankMasks[e];
+								flushRankBits |= rankMasks[f];
+								flushRankBits |= rankMasks[g];
+								for (int n = 9; n >= 0; n--)
+								{
+									if ((flushRankBits >> n) % 32 == 31)
+									{
+										flushStrength = 7763 + n; //7763 is 2 greater than highest flush 
+										break;
+									}
+								}
+								if (flushStrength == -47)
+								{
+									int bitsToAdd = 5;
+									for (int n = 13; n > 0; n--)
+									{
+										if ((flushRankBits & (1 << n)) > 0)
+										{
+											bitsToAdd--;
+											flushStrength += 1 << (n - 1);
+										}
+										if (bitsToAdd == 0)
+											break;
+									}
+										
+								}
+								flushDictionary[flushRankBits]=flushStrength;
+							}
+	StringBuilder builder = new StringBuilder();
+	foreach (KeyValuePair<int, int> pair in flushDictionary)
+	{
+		builder.Append(pair.Key).Append(":").Append(pair.Value).Append(',');
+	}
+	String result = builder.ToString();
+	result = result.TrimEnd(',');
+	File.WriteAllText("HoldemDictionaries\\flushDict.txt", result);*/
+
+/*	for (int a = 0; a < 13; a++)
+	for (int b = a; b < 13; b++)
+	{
+		int handKey = primeNumbers[a];
+		handKey *= primeNumbers[b];
+		Dictionary<int, int> strengthDictionary = new Dictionary<int, int>();
+		for (int e = 0; e < 13; e++)
+			for (int f = e; f < 13; f++)
+				for (int g = f; g < 13; g++)
+					for (int h = g; h < 13; h++)
+						for (int i = h; i < 13; i++)
+						{
+							int key = primeNumbers[e];
+							key *= primeNumbers[f];
+							key *= primeNumbers[g];
+							key *= primeNumbers[h];
+							key *= primeNumbers[i];
+
+							bool possible = true;
+							for (int n = 0; n < 13; n++)
+							{
+								int count = 0;
+								if (a == n)
+									count++;
+								if (b == n)
+									count++;
+								if (e == n)
+									count++;
+								if (f == n)
+									count++;
+								if (g == n)
+									count++;
+								if (h == n)
+									count++;
+								if (i == n)
+									count++;
+								if (count > 4)
+									possible = false;
+							}
+							if (possible)
+							{
+								HoldemHandSlow hand = new HoldemHandSlow(new Card(a,0), new Card(b,0));
+								hand.EvaluateHand();
+								Board board = new Board(new Card(e,0), new Card(f,0), new Card(g,0), new Card(h,0), new Card(i,0));
+
+								Dictionary<int, int> rankCounts = new Dictionary<int, int>();
+								int boardRankBits = 0;
+								for (int n = 0; n < board.NumCards; n++)
+								{
+									if (rankCounts.ContainsKey(board.GetCard(n).Rank))
+										rankCounts[board.GetCard(n).Rank] = rankCounts[board.GetCard(n).Rank] + 1;
+									else
+										rankCounts.Add(board.GetCard(n).Rank, 1);
+									boardRankBits |= Consts.rankMasks[board.GetCard(n).Rank];
+								}
+
+								int highHand = -1;
+								highHand = hand.CheckQuadsBoat(rankCounts, boardRankBits);
+
+								if (highHand == -1)
+									highHand = hand.CheckStraight(boardRankBits);
+
+								if (highHand == -1)
+									highHand = hand.CheckSetTrips(boardRankBits);
+
+								if (highHand == -1)
+									highHand = hand.CheckTwoPair(boardRankBits);
+
+								if (highHand == -1)
+									highHand = hand.CheckPair(boardRankBits);
+
+								if (highHand == -1)
+									highHand = hand.CheckHighCards(boardRankBits, 5);
+
+								strengthDictionary[key] = highHand;
+							}
+						}
+		StringBuilder builder = new StringBuilder();
+		foreach (KeyValuePair<int, int> pair in strengthDictionary)
+		{
+			builder.Append(pair.Key).Append(":").Append(pair.Value).Append(',');
+		}
+		String result = builder.ToString();
+		result = result.TrimEnd(',');
+		File.WriteAllText("HoldemDictionaries\\strengthDict" + handKey + ".txt", result);
+	}*/
+
+/*
+Code to convert dictionaries to zips
+String[] filePaths = Directory.GetFiles("Dictionaries");
+	foreach (String path in filePaths)
+	{
+		if(path.Contains("txt"))
+		{
+			FileStream source = new FileStream(path, FileMode.Open);
+			FileStream dest = new FileStream(path.Substring(0, path.Length-3) + "zip", FileMode.Create);
+			byte[] bufferWrite = new byte[source.Length];
+			source.Read(bufferWrite, 0, bufferWrite.Length);
+			GZipStream compressor = new GZipStream(dest, CompressionMode.Compress);
+			compressor.Write(bufferWrite, 0, bufferWrite.Length);
+			source.Close();
+			dest.Close();
+		}
+	}
+*/
+
+
+/*
+Code used to build Omaha strengthDictionaries
+public static Dictionary<int, int> lowDictionary = new Dictionary<int, int>();
+s = File.ReadAllText("lowDict.txt");
+tokens = s.Split(new char[] { ':', ',' },
+	StringSplitOptions.RemoveEmptyEntries);
+for (int i = 0; i < tokens.Length; i += 2)
+	lowDictionary[int.Parse(tokens[i])] = int.Parse(tokens[i + 1]);
+for (int a = 0; a < 13; a++)
+	for (int b = a; b < 13; b++)
+		for (int c = b; c < 13; c++)
+			for (int d = c; d < 13; d++)
+			{
+				int handKey = primeNumbers[a];
+				handKey *= primeNumbers[b];
+				handKey *= primeNumbers[c];
+				handKey *= primeNumbers[d];
+				Dictionary<int, int> strengthDictionary = new Dictionary<int, int>();			
+				for (int e = 0; e < 13; e++)
+					for (int f = e; f < 13; f++)
+						for (int g = f; g < 13; g++)
+							for (int h = g; h < 13; h++)
+								for (int i = h; i < 13; i++)
+								{
+									int key = primeNumbers[e];
+									key *= primeNumbers[f];
+									key *= primeNumbers[g];
+									key *= primeNumbers[h];
+									key *= primeNumbers[i];
+									
+									bool possible = true;
+									for (int n = 0; n < 13; n++)
+									{
+										int count = 0;
+										if (a == n)
+											count++;
+										if (b == n)
+											count++;
+										if (c == n)
+											count++;
+										if (d == n)
+											count++;
+										if (e == n)
+											count++;
+										if (f == n)
+											count++;
+										if (g == n)
+											count++;
+										if (h == n)
+											count++;
+										if (i == n)
+											count++;
+										if (count > 4)
+											possible = false;
+									}
+									if (possible)
+									{
+										HandSlow hand = new HandSlow(new Card(a), new Card(b), new Card(c), new Card(d));
+										hand.EvaluateHand();
+										Board board = new Board(new Card(e), new Card(f), new Card(g), new Card(h), new Card(i));
+
+										Dictionary<int, int> rankCounts = new Dictionary<int, int>();
+										int boardRankBits = 0;
+										for (int n = 0; n < board.NumCards; n++)
+										{
+											if (rankCounts.ContainsKey(board.GetCard(n).Rank))
+												rankCounts[board.GetCard(n).Rank] = rankCounts[board.GetCard(n).Rank] + 1;
+											else
+												rankCounts.Add(board.GetCard(n).Rank, 1);
+											boardRankBits |= Consts.rankMasks[board.GetCard(n).Rank];
+										}
+
+										int highHand = -1;
+										highHand = hand.CheckQuadsBoat(rankCounts);
+
+										if (highHand == -1)
+											highHand = hand.CheckStraight(boardRankBits);
+
+										if (highHand == -1)
+											highHand = hand.CheckSetTrips();
+
+										if (highHand == -1)
+											highHand = hand.CheckTwoPair(rankCounts);
+
+										if (highHand == -1)
+											highHand = hand.CheckPair(rankCounts);
+
+										if (highHand == -1)
+											highHand = hand.CheckHighCards();
+
+										int lowHand = hand.CheckLow(boardRankBits);
+
+										int value = highHand;
+
+										if (lowHand > 0)
+											value += (lowHand << 12);
+
+										strengthDictionary[key] = value;
+									}
+								}
+				StringBuilder builder = new StringBuilder();
+				foreach (KeyValuePair<int, int> pair in strengthDictionary)
+				{
+					builder.Append(pair.Key).Append(":").Append(pair.Value).Append(',');
+				}
+				String result = builder.ToString();
+				result = result.TrimEnd(',');
+				File.WriteAllText("strengthDict" + handKey + ".txt", result);
+			}
+
+
+Code used to build lowDictionary
+for(int a=0; a<8; a++)
+	for(int b=a+1; b<8; b++)
+		for(int c=b+1; c<8; c++)
+			for(int d=0; d<8; d++)
+				for(int e=0; e<8; e++)
+					for(int i=0; i<8; i++)
+						for (int j = i + 1; j < 8; j++)
+							for(int k = 0; k< 8; k++)
+								for(int l=0; l<8; l++)
+								{
+									int key = 0;
+									key |= 1 << a;
+									key |= 1 << b;
+									key |= 1 << c;
+									key |= 1 << d;
+									key |= 1 << e;
+									key |= 1 << (i + 8);
+									key |= 1 << (j + 8);
+									key |= 1 << (k + 8);
+									key |= 1 << (l + 8);
+
+									ArrayList boardLowRankBits = new ArrayList();
+									for(int n=0; n<8; n++)
+									{
+										if((key & (1 << n)) > 0)
+										{
+											boardLowRankBits.Add(n);
+										}
+									}
+
+									ArrayList handLowRankBits = new ArrayList();
+									for (int n = 8; n < 16; n++)
+									{
+										if ((key & (1 << n)) > 0)
+										{
+											handLowRankBits.Add(n - 8);
+										}
+									}
+
+									int maxLowStrength = -1;
+									ArrayList threeBoardLowRankBits = new ArrayList(3);
+									threeBoardLowRankBits.Add(0); threeBoardLowRankBits.Add(0); threeBoardLowRankBits.Add(0);
+
+									for (int n = 1; n < handLowRankBits.Count; n++)
+										for (int m = 0; m < n; m++)
+											for (int x = 2; x < boardLowRankBits.Count; x++)
+											{
+												threeBoardLowRankBits[2] = boardLowRankBits[x];
+												for (int y = 1; y < x; y++)
+												{
+													threeBoardLowRankBits[1] = boardLowRankBits[y];
+													for (int z = 0; z < y; z++)
+													{
+														threeBoardLowRankBits[0] = boardLowRankBits[z];
+														if (!threeBoardLowRankBits.Contains(handLowRankBits[m]) && !threeBoardLowRankBits.Contains(handLowRankBits[n]))
+														{
+															int tempLowStrength = 497;
+															for (int f = 0; f < threeBoardLowRankBits.Count; f++)
+																tempLowStrength -= 1 << (int)threeBoardLowRankBits[f];
+
+															tempLowStrength -= 1 << (int)handLowRankBits[m];
+															tempLowStrength -= 1 << (int)handLowRankBits[n];
+															
+															if (tempLowStrength > maxLowStrength)
+																maxLowStrength = tempLowStrength;
+														}
+													}
+												}
+											}
+									if(maxLowStrength > -1)
+										lowDictionary[key] = maxLowStrength;
+								}
+StringBuilder builder = new StringBuilder();
+foreach (KeyValuePair<int, int> pair in lowDictionary)
+{
+	builder.Append(pair.Key).Append(":").Append(pair.Value).Append(',');
+}
+string result = builder.ToString();
+result = result.TrimEnd(',');
+File.WriteAllText("lowDict.txt", result);
+
+
+Code used to build straightDictionary
+for (int a = 0; a < 5; a++)
+	for (int b = a + 1; b < 5; b++)
+		for (int c = b + 1; c < 5; c++)
+			for (int d = 0; d < 5; d++)
+				for (int e = 0; e < 5; e++)
+					for (int f = 0; f < 5; f++)
+						for (int g = f + 1; g < 5; g++)
+							for (int h = 0; h < 5; h++)
+								for (int i = 0; i < 5; i++)
+								{
+									//key is lowest 5 bits of boardRankBits and lowest 5 bits of handRankBits
+									//higher 5 bits of key is handRankBits, lower 5 bits is boardRankBits
+									int key = 0;
+									key |= 1 << a;
+									key |= 1 << b;
+									key |= 1 << c;
+									key |= 1 << d;
+									key |= 1 << e;
+									key |= 1 << (f + 5);
+									key |= 1 << (g + 5);
+									key |= 1 << (h + 5);
+									key |= 1 << (i + 5);
+
+									bool straight = false;
+									for (int n = 1; n < 32; n *= 2)
+										for (int m = n * 2; m < 32; m *= 2)
+											for (int o = m * 2; o < 32; o *= 2)
+												for (int p = 1; p < 32; p *= 2)
+													for (int q = p * 2; q < 32; q *= 2)
+													{
+														int test = 0;
+														test |= (key & n);
+														test |= (key & m);
+														test |= (key & o);
+														test |= ((key >> 5) & p);
+														test |= ((key >> 5) & q);
+														if (test == 31)
+															straight = true;
+													}
+									if (straight)
+										straightDictionary[key] = straight;
+								}
+StringBuilder builder = new StringBuilder();
+foreach (KeyValuePair<int, bool> pair in straightDictionary)
+{
+	builder.Append(pair.Key).Append(",");
+}
+string result = builder.ToString();
+result = result.TrimEnd(',');
+File.WriteAllText("straightDict.txt", result);
+*/
+
+
+
+
+/*Code to build RankCountDictionary
+for (int a = 0; a < 13; a++)
+	for (int b = a; b < 13; b++)
+		for (int c = b; c < 13; c++)
+			for (int d = c; d < 13; d++)
+				for (int e = d + 1; e < 13; e++)
+					for (int f = 0; f < 13; f++)
+						for (int g = f; g < 13; g++)
+							for (int h = g; h < 13; h++)
+								for (int i = h; i < 13; i++)
+								{
+									bool possible = true;
+									for (int n = 0; n < 13; n++)
+									{
+										int count = 0;
+										if (a == n)
+											count++;
+										if (b == n)
+											count++;
+										if (c == n)
+											count++;
+										if (d == n)
+											count++;
+										if (e == n)
+											count++;
+										if (f == n)
+											count++;
+										if (g == n)
+											count++;
+										if (h == n)
+											count++;
+										if (i == n)
+											count++;
+										if (count > 4)
+											possible = false;
+									}
+									if (possible)
+									{
+										long key = primeNumbers[a];
+										key *= primeNumbers[b];
+										key *= primeNumbers[c];
+										key *= primeNumbers[d];
+										key *= primeNumbers[e];
+										long key2 = primeNumbers[f];
+										key2 *= primeNumbers[g];
+										key2 *= primeNumbers[h];
+										key2 *= primeNumbers[i];
+										key += key2<<27;
+										String value = Consts.ToRankString(a) + Consts.ToRankString(b) +
+														Consts.ToRankString(c) + Consts.ToRankString(d) +
+														Consts.ToRankString(e) + Consts.ToRankString(f) +
+														Consts.ToRankString(g) + Consts.ToRankString(h) +
+														Consts.ToRankString(i);
+										rankCountsDictionary[key] = value;
+									}
+								}
+StringBuilder builder = new StringBuilder();
+foreach (KeyValuePair<long, String> pair in rankCountsDictionary)
+{
+	builder.Append(pair.Key).Append(":").Append(pair.Value).Append(',');
+}
+string result = builder.ToString();
+result = result.TrimEnd(',');
+File.WriteAllText("rankCountsDict.txt", result);*/

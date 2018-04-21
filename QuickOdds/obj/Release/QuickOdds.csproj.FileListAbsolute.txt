@@ -1,0 +1,10 @@
+C:\Documents and Settings\Daniel\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds\bin\Release\QuickOdds.dll
+C:\Documents and Settings\Daniel\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds\bin\Release\QuickOdds.pdb
+C:\Documents and Settings\Daniel\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Daniel\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds\obj\Release\QuickOdds.dll
+C:\Documents and Settings\Daniel\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds\obj\Release\QuickOdds.pdb
+C:\Users\dpm9h_000\Desktop\Inspiron Laptop\Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds\bin\Release\QuickOdds.dll
+C:\Users\dpm9h_000\Desktop\Inspiron Laptop\Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds\bin\Release\QuickOdds.pdb
+C:\Users\dpm9h_000\Desktop\Inspiron Laptop\Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds\obj\Release\ResolveAssemblyReference.cache
+C:\Users\dpm9h_000\Desktop\Inspiron Laptop\Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds\obj\Release\QuickOdds.dll
+C:\Users\dpm9h_000\Desktop\Inspiron Laptop\Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds\obj\Release\QuickOdds.pdb

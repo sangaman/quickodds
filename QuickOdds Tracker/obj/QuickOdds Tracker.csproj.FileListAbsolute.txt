@@ -1,0 +1,36 @@
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\bin\Debug\QuickOdds Tracker.exe
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\bin\Debug\QuickOdds Tracker.pdb
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\obj\Debug\QuickOdds_Tracker.Properties.Resources.resources
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\obj\Debug\QuickOdds Tracker.csproj.GenerateResource.Cache
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\obj\Debug\QuickOdds Tracker.exe
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\obj\Debug\QuickOdds Tracker.pdb
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\obj\Debug\QuickOdds_Tracker.MainForm.resources
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\bin\Debug\Npgsql.dll
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\bin\Debug\Mono.Security.dll
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\bin\Debug\Npgsql.xml
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\bin\Debug\de\Npgsql.resources.dll
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\bin\Debug\es\Npgsql.resources.dll
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\bin\Debug\fi\Npgsql.resources.dll
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\bin\Debug\fr\Npgsql.resources.dll
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\bin\Debug\ja\Npgsql.resources.dll
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\obj\Debug\QuickOdds_Tracker.CreateDBForm.resources
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\bin\Release\QuickOdds Tracker.exe
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\bin\Release\QuickOdds Tracker.pdb
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\bin\Release\Npgsql.dll
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\bin\Release\Mono.Security.dll
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\bin\Release\Npgsql.xml
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\bin\Release\de\Npgsql.resources.dll
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\bin\Release\es\Npgsql.resources.dll
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\bin\Release\fi\Npgsql.resources.dll
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\bin\Release\fr\Npgsql.resources.dll
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\bin\Release\ja\Npgsql.resources.dll
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\bin\Release\zh-CN\Npgsql.resources.dll
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\obj\Release\QuickOdds_Tracker.CreateDBForm.resources
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\obj\Release\QuickOdds_Tracker.MainForm.resources
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\obj\Release\QuickOdds_Tracker.Properties.Resources.resources
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\obj\Release\QuickOdds Tracker.csproj.GenerateResource.Cache
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\obj\Release\QuickOdds Tracker.exe
+C:\Documents and Settings\Daniel McNally\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Tracker\obj\Release\QuickOdds Tracker.pdb

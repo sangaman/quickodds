@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\QuickOdds.MainForm.resources
+obj\Debug\QuickOdds.Properties.Resources.resources
+obj\Debug\QuickOdds.csproj.GenerateResource.Cache
+bin\Debug\QuickOdds.exe
+bin\Debug\QuickOdds.pdb
+obj\Debug\QuickOdds.exe
+obj\Debug\QuickOdds.pdb

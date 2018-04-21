@@ -1,0 +1,34 @@
+C:\Documents and Settings\Daniel\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\bin\Debug\QuickOdds Calculator.exe.config
+C:\Documents and Settings\Daniel\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\obj\Debug\QuickOdds Calculator.exe
+C:\Documents and Settings\Daniel\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\bin\Debug\QuickOdds Calculator.exe.manifest
+C:\Documents and Settings\Daniel\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\bin\Debug\QuickOdds Calculator.application
+C:\Documents and Settings\Daniel\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\bin\Debug\QuickOdds Calculator.exe
+C:\Documents and Settings\Daniel\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\bin\Debug\QuickOdds Calculator.pdb
+C:\Documents and Settings\Daniel\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\bin\Debug\QuickOdds.dll
+C:\Documents and Settings\Daniel\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\bin\Debug\QuickOdds.pdb
+C:\Documents and Settings\Daniel\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Daniel\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\obj\Debug\QuickOdds_Calculator.MainForm.resources
+C:\Documents and Settings\Daniel\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\obj\Debug\QuickOdds_Calculator.MessageBox.resources
+C:\Documents and Settings\Daniel\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\obj\Debug\QuickOdds_Calculator.Properties.Resources.resources
+C:\Documents and Settings\Daniel\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\obj\Debug\QuickOdds Calculator.csproj.GenerateResource.Cache
+C:\Documents and Settings\Daniel\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\obj\Debug\QuickOdds Calculator.TrustInfo.xml
+C:\Documents and Settings\Daniel\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\obj\Debug\QuickOdds Calculator.exe.manifest
+C:\Documents and Settings\Daniel\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\obj\Debug\QuickOdds Calculator.application
+C:\Documents and Settings\Daniel\My Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\obj\Debug\QuickOdds Calculator.pdb
+C:\Users\dpm9h_000\Desktop\Inspiron Laptop\Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\bin\Debug\QuickOdds Calculator.exe.config
+C:\Users\dpm9h_000\Desktop\Inspiron Laptop\Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\obj\Debug\QuickOdds Calculator.exe
+C:\Users\dpm9h_000\Desktop\Inspiron Laptop\Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\obj\Debug\QuickOdds Calculator.pdb
+C:\Users\dpm9h_000\Desktop\Inspiron Laptop\Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\bin\Debug\QuickOdds Calculator.exe.manifest
+C:\Users\dpm9h_000\Desktop\Inspiron Laptop\Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\bin\Debug\QuickOdds Calculator.application
+C:\Users\dpm9h_000\Desktop\Inspiron Laptop\Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\bin\Debug\QuickOdds Calculator.exe
+C:\Users\dpm9h_000\Desktop\Inspiron Laptop\Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\bin\Debug\QuickOdds Calculator.pdb
+C:\Users\dpm9h_000\Desktop\Inspiron Laptop\Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\bin\Debug\QuickOdds.dll
+C:\Users\dpm9h_000\Desktop\Inspiron Laptop\Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\bin\Debug\QuickOdds.pdb
+C:\Users\dpm9h_000\Desktop\Inspiron Laptop\Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dpm9h_000\Desktop\Inspiron Laptop\Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\obj\Debug\QuickOdds_Calculator.MainForm.resources
+C:\Users\dpm9h_000\Desktop\Inspiron Laptop\Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\obj\Debug\QuickOdds_Calculator.MessageBox.resources
+C:\Users\dpm9h_000\Desktop\Inspiron Laptop\Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\obj\Debug\QuickOdds_Calculator.Properties.Resources.resources
+C:\Users\dpm9h_000\Desktop\Inspiron Laptop\Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\obj\Debug\QuickOdds Calculator.csproj.GenerateResource.Cache
+C:\Users\dpm9h_000\Desktop\Inspiron Laptop\Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\obj\Debug\QuickOdds Calculator.TrustInfo.xml
+C:\Users\dpm9h_000\Desktop\Inspiron Laptop\Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\obj\Debug\QuickOdds Calculator.exe.manifest
+C:\Users\dpm9h_000\Desktop\Inspiron Laptop\Documents\Visual Studio 2005\Projects\QuickOdds\QuickOdds Calculator\obj\Debug\QuickOdds Calculator.application

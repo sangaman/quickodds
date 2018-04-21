@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickOdds Calculator", "QuickOdds Calculator\QuickOdds Calculator.csproj", "{CC43BEF7-5B62-4FB6-8A9A-D289CD50EA06}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "QuickOdds Calculator Setup", "QuickOdds Calculator Setup\QuickOdds Calculator Setup.vdproj", "{CB15790D-6F8F-4921-80B4-5678DE4EE64D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A6558015-06BD-47D7-B8A8-14AE4E9F95E4} = {A6558015-06BD-47D7-B8A8-14AE4E9F95E4}
+		{CC43BEF7-5B62-4FB6-8A9A-D289CD50EA06} = {CC43BEF7-5B62-4FB6-8A9A-D289CD50EA06}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickOdds", "QuickOdds\QuickOdds.csproj", "{A6558015-06BD-47D7-B8A8-14AE4E9F95E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickOdds KeyGen", "QuickOdds KeyGen\QuickOdds KeyGen.csproj", "{0A61BAAE-3F22-4E89-841B-627826CE41F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC43BEF7-5B62-4FB6-8A9A-D289CD50EA06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC43BEF7-5B62-4FB6-8A9A-D289CD50EA06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC43BEF7-5B62-4FB6-8A9A-D289CD50EA06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC43BEF7-5B62-4FB6-8A9A-D289CD50EA06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB15790D-6F8F-4921-80B4-5678DE4EE64D}.Debug|Any CPU.ActiveCfg = Debug
+		{CB15790D-6F8F-4921-80B4-5678DE4EE64D}.Release|Any CPU.ActiveCfg = Release
+		{A6558015-06BD-47D7-B8A8-14AE4E9F95E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6558015-06BD-47D7-B8A8-14AE4E9F95E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6558015-06BD-47D7-B8A8-14AE4E9F95E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6558015-06BD-47D7-B8A8-14AE4E9F95E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A61BAAE-3F22-4E89-841B-627826CE41F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A61BAAE-3F22-4E89-841B-627826CE41F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A61BAAE-3F22-4E89-841B-627826CE41F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A61BAAE-3F22-4E89-841B-627826CE41F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
